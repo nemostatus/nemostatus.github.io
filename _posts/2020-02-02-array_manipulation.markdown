@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Array manipulation."
-date:       2020-02-02 18:26:18 +0000
+date:       2020-02-02 13:26:19 -0500
 permalink:  array_manipulation
 ---
 
