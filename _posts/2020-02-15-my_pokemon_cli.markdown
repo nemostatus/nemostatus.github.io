@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "My Pokemon CLI Gem"
+title:      "My Pokemon CLI "
 date:       2020-02-15 06:05:15 -0500
 permalink:  my_pokemon_cli
 ---
