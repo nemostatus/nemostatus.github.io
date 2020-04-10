@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Sinatra project - 'project builder'"
-date:       2020-04-10 11:01:09 +0000
+title:      "My Sinatra project  "Project Builder""
+date:       2020-04-10 07:01:10 -0400
 permalink:  sinatra_project_-_project_builder
 ---
 
