@@ -10,7 +10,9 @@ permalink:  rails_dryer
 	
 	**THE WHY**
 Watching some instructional videos on keeping my rails app DRY I learned that using methods to keep code DRY make the application more maintainable. For example in my app I have this code for my navigation bar.
-	 
+
+
+
 ```
 
 <%= link_to "Creat New vehicle", new_user_vehicle_path(current_user.id)  %>
@@ -21,6 +23,8 @@ Watching some instructional videos on keeping my rails app DRY I learned that us
 <%= button_to "Logout", '/logout', method: :delete%>
 
 ```
+
+
 
 Let's say I just copied and pasted it into multiple different files but i wanted to delete one of these links and add another.So I would have to go back to each page and copy and paste the newly and edited code. Copy and paste is useful but it isn't the answer. It wouldn't be so bad to do on a smaller scale but I can imagine how time consuming it would be to change every file that a repeated snippet of code is.
 	
@@ -34,24 +38,19 @@ In order to make the application more efficient you use partials. First created 
 
 ```
 
-   Now if I wanted to change the code I wouldn't have to change anything else but what's inside of the shared/nav file. 
-	 Only having to make a change once. All  other files containing <%=render "shared/nav"%> would now have the edited code. Very cool.
-	 
-	   Another way to make your application more DRY is by using methods in your controller. For instance in my reviews controller I have a few instances where I use these lines of code so i decided to put them in methods in my controller.
+  Now if I wanted to change the code I wouldn't have to change anything else but what's inside of the shared/nav file. 
+Only having to make a change once. All  other files containing <%=render "shared/nav"%> would now have the edited code. Very cool.Another way to make your application more DRY is by using methods in your controller. For instance in my reviews controller I have a few instances where I use these lines of code so i decided to put them in methods in my controller.
 		 
 		 
-		 ` def find_vehicle
-    @vehicle= Vehicle.find(params[:vehicle_id])
-  end
-  
-  def find_review 
-    @review = Review.find(params[:id])
+ `def find_vehicle
+  @vehicle= Vehicle.find(params[:vehicle_id])
   end`
+
 	
-	Now everytime I want to use them I just put this line on the top of the controller ensuring that the methods will be called before the other code in the method
+Now everytime I want to use them I just put this line on the top of the controller ensuring that the methods will be called before the other code in the method
 	
-	`before_action :find_vehicle, only: [:edit, :update]
+`before_action :find_vehicle, only: [:edit, :update]
   before_action :find_review, only: [:edit, :update]`
 	
-	Overall this project had been intense but I learned alot and hopefully this helps anyone out there who may need a starting point on keeping code DRY and why it's important. I just want to REPEAT that I am in no way an expert but I do see the importance of keeping code ADAP. 
+Overall this project had been intense but I learned alot and hopefully this helps anyone out there who may need a starting point on keeping code DRY and why it's important. I just want to REPEAT that I am in no way an expert but I do see the importance of keeping code ADAP. 
 	 
