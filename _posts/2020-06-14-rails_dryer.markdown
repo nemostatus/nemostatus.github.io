@@ -42,15 +42,15 @@ In order to make the application more efficient you use partials. First created 
 Only having to make a change once. All  other files containing <%=render "shared/nav"%> would now have the edited code. Very cool.Another way to make your application more DRY is by using methods in your controller. For instance in my reviews controller I have a few instances where I use these lines of code so i decided to put them in methods in my controller.
 		 
 		 
- `def find_vehicle
+ ```def find_vehicle
   @vehicle= Vehicle.find(params[:vehicle_id])
-  end`
+  end```
 
 	
 Now everytime I want to use them I just put this line on the top of the controller ensuring that the methods will be called before the other code in the method
 	
-`before_action :find_vehicle, only: [:edit, :update]
-  before_action :find_review, only: [:edit, :update]`
+```before_action :find_vehicle, only: [:edit, :update]
+  before_action :find_review, only: [:edit, :update]```
 	
 Overall this project had been intense but I learned alot and hopefully this helps anyone out there who may need a starting point on keeping code DRY and why it's important. I just want to REPEAT that I am in no way an expert but I do see the importance of keeping code ADAP. 
 	 
