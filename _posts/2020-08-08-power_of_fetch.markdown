@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Power of fetch"
-date:       2020-08-08 15:29:10 +0000
+title:      "Power of fetch()"
+date:       2020-08-08 11:29:11 -0400
 permalink:  power_of_fetch
 ---
 
