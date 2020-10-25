@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "Dev log: Day 1 Cat facts"
-date:       2020-10-25 08:38:31 +0000
+date:       2020-10-25 04:38:31 -0400
 permalink:  dev_log_day_1_cat_facts
 ---
 
    If I were to have a new years resolution in 2021 it would be consistent in pursuing my goals. So I figure I'd get a head start on this resolution. Doing something everyday whether it's a good day or a bad day. This dev log will hold me accountable to my programming goals. I want to code something everyday. Whether it be a mini application like the one I will describe below, a strict learning session(exploring my weaknesses and working on them), and showing code snippets. I will try to provide value in these blogs for whoever happens to read them by explaining the code and sharing resources I find along the way. I will make useful bits of information or resources bold.
 
-     The past few days I've been using **JSFiddle** and exploring different APIS. I made a simple mini app where you click a button and recieve random cat facts. So first I made it in *JSFiddle* first, then decided to post it on my github. Interestingly enough the code wasn't the hard part since I was able to make it in *JSFiddle*  quickly. The part that I spaced out on was converting it to a github repo. What I mean is in JSFiddle you don't need to let 2 seperate pieces of code(the HTML and JS) know about one another but when creating a repo from some sratch you do. This is just another reminder that in programming, sometimes there is a very simple reason why something doesn't work and they should be checked first.
+The past few days I've been using **JSFiddle** and exploring different APIS. I made a simple mini app where you click a button and recieve random cat facts. So first I made it in *JSFiddle* first, then decided to post it on my github. Interestingly enough the code wasn't the hard part since I was able to make it in *JSFiddle*  quickly. The part that I spaced out on was converting it to a github repo. What I mean is in JSFiddle you don't need to let 2 seperate pieces of code(the HTML and JS) know about one another but when creating a repo from some sratch you do. This is just another reminder that in programming, sometimes there is a very simple reason why something doesn't work and they should be checked first.
 
    So I **used the emmet command ! + enter which creates a barebone html file**. Then I added this line of code in between the 'head' tags so the html file knows about the JS file. 
 
