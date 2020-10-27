@@ -11,7 +11,9 @@ If you haven't read my last post i'm creating this dev log series to keep my hab
 
 The application has no real world purpose but it is funny to see peoples expressions as they try it out.I would give a brief description of the application but it would ruin the fun of trying it out for the first time. Check out my github to try it out or just copy and paste the code into **JSFiddle**, just realized  I should make a JSFiddle account !
 
-[https://github.com/nemostatus/secret_message](http://)
+```
+https://github.com/nemostatus/secret_message
+```
 
 I did say in the last post that I want to provide some sort of value in these posts so here's a list of things I learned while building secret_message.
 
