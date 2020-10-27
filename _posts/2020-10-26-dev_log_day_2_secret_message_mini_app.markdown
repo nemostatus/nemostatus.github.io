@@ -13,6 +13,8 @@ The application has no real world purpose but it is funny to see peoples express
 
 ```
 https://github.com/nemostatus/secret_message
+
+Here's the github! The link wasn't working for some reason, I'll need to troubleshoot why later. Copy and paste if you want.
 ```
 
 I did say in the last post that I want to provide some sort of value in these posts so here's a list of things I learned while building secret_message.
