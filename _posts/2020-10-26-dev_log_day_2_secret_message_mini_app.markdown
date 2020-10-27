@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Dev log: Day 2 Secret Message mini app"
-date:       2020-10-27 02:15:51 +0000
+title:      "Dev log: Day 2 Secret Message "
+date:       2020-10-26 22:15:51 -0400
 permalink:  dev_log_day_2_secret_message_mini_app
 ---
 
