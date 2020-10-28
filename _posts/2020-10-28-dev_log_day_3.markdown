@@ -1,0 +1,49 @@
+---
+layout: post
+title:      "Dev log: Day 3 "
+date:       2020-10-28 04:19:09 +0000
+permalink:  dev_log_day_3
+---
+
+
+Yesterday I was talking about focusing on my projects and portfolio but I thought I'd just finish sharing what came of my API tinkering binge. I created a button that gets pokemon names. I felt like that wasn't blog worthy so I'm currently attempting to create a pokemon battle feature where you choose 3 pokemon from list and then the enemy team is selected randomly from list. The enemy team and your teams base_experience are compared and a winner is selected.. 
+
+I learned something useful on **stackOverflow**, so in order to choose 3 random pokemon for the battle I want to grab the objects then use that objects url property to get the pokemons base_xp. I've never had to grab a specific number of random elements from an array recently so I looked it up and below is the code I used from stackOverflow. I figure in this series I should attempt to describe what the code is doing.
+
+```
+const shuffled = data.results.sort(() => 0.5 - Math.random());
+        let selected = shuffled.slice(17);
+```
+
+So a variable named shuffled is assigned to the pokemon objects that are shuffled by using the higher order function 'sort()'. That newly scrambled array is now reaching the 18th element and removing the rest of the objects so now selected is equal to 3 random objects from the original dataset. 
+
+Here's the the repo if you want to check it out. It's still a work in progress(the battle feature). 
+
+```
+https://github.com/nemostatus/poke_js
+```
+
+What I learned 
+1. Not all syntax errors will show in text editor e.g. 
+```
+syntax error missing ) after argument list
+```
+
+This error meant I had to change this
+
+```
+<li onClick = "getYourXP(${data.results[i].url})">
+```
+
+To this 
+
+```
+<li onClick = "getYourXP('${data.results[i].url}')">
+```
+
+It's a very small thing but it was giving me an error and I'm still not sure why. 
+
+2. The array shuffle and slice randomizer as demonstrated above
+
+
+
