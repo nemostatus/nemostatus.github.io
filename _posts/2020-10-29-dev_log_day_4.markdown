@@ -1,0 +1,49 @@
+---
+layout: post
+title:      "Dev log: day 4"
+date:       2020-10-29 06:07:58 +0000
+permalink:  dev_log_day_4
+---
+
+My mini project poke_js is almost complete. I implemented the battle function. Here is a code snippet of the function. 
+
+```
+  const battle = () =>{
+          console.log("enemy",enemyTeam)
+        let enemyXpProp = enemyTeam.map(x => x.experience)
+        console.log("test",enemyTeam)
+        //compare reduced xp, whichever nums bigger write prompt using object data
+        let yourXpProp = yourTeam.map(x => x.experience)
+     
+        console.log("both",yourXpProp, enemyXpProp  )
+       let yourxp =  yourXpProp.reduce(reducer) // 
+       let enemyxp = enemyXpProp.reduce(reducer)
+       if(yourxp > enemyxp){
+           alert("you win")
+            }
+            else{
+                alert("you lose")
+            }
+      }
+```
+
+So breaking this down
+
+1. On the first console.log() I learned something useful, label what the console.log is next to it because I had alot at this point in my code. EnemyTeam is set to an empty array as a global variable in my code. Once the choose enemy button is selected, 3 random pokemon objects are pushed into this empty array. Due to javascripts asyncronous nature I had a hard time figuring out why everytime I would log the enemyteam an empty array would pop up in the console. When this empty array was clicked the 3 objects would be there.  This only meant that when logged there are no objects there but later in the code the objects would be pushed into the array and this caused problems.  
+2. enemyXpProp is a variable of a new array that contains the pokemons experience which was an integer
+3. yourXpProp is the same idea with the pokemon you selected
+4. The last part of this function is  a condtional checking the reduced value of both of those arrays checking who is the winner
+
+I'm having alot of fun with this mini project and there are a few things I want to add onto it. 
+
+**What I learned or have been reminded about**
+1. Remember js is asynronous and that should always be considered when something doesn't work
+2. Projects are a great way to learn programming because I've used alot of different concepts just programming a mini app. In this project alone I've used 
+* event listeners
+* event handlers
+* using fetch and making calls to different endpoints
+* using reduce to reduce an array to 1 value
+* using conditionals
+* using template literals
+
+I used all of these concepts plus more and it didn't feel like work at all. If you are just starting to learn how to program and have free time, build any project that you're passionate about and you will learn alot! I knew all of these concepts but that's only because I've built a js project before I was passionate about. This has been my daily log and tune in tomorrow if you want!
