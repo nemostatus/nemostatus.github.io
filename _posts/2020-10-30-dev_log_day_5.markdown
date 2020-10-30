@@ -1,0 +1,14 @@
+---
+layout: post
+title:      "Dev log: Day 5"
+date:       2020-10-30 05:49:41 +0000
+permalink:  dev_log_day_5
+---
+
+Type: Non-Technical, Idea of focusing, Thought dump
+
+So my poke_js mini project from the previous blogs is more or less complete. It does everything that I want it to do. There's a button that makes  a fetch request to get 20 different pokemon. There's the option to select 3 pokemon to add to your roster for a pokemon battle against 3 random pokemon from the same list. You click battle and the total base_experience from each team is then compared and an alert message pops up declaring the winning team. There's also a button that clear the team so you can choose another team. So that's it. Right? How far could I take this? Add a hover option and selected option showing which pokemon are selected. Have some sort of turn based system to make the match more dramatic? That's just it... A project can always by changed but where does it stop. For now my answer to that question is... When it stops being fun. Well maybe I should look at this differently? Maybe my answer should be, have someone use the application, then get feedback from them, then make changes accordingly. I believe right now my main goal is to land a job as a jr developer.
+
+What does that entail? How does that effect my daily schedule? I think my best route would be just to keep improving my skills and understanding. Go back and look at my porfolio projects and ask myself.. If I was an employer looking at this project would it stand out from the rest of the projects ?  Part of me thinks, "Make something so great that they'll give you an interview."  Another part of me thinks, "will this be good enough?" So I think the plan here is to take my favorite projects and really improve anything I can about it. Improve my ui/ux skills so it does stand out and refresh what I currently know everyday, reading docs, reading existing code(slowly),practice in JSFiddle, and track how much time I'm actually studying per day so I don't get lazy and put in the time. 
+
+As you see above this blog is the first non-technical blog of the series but I feel like the idea of creating a focused plan after graduation is important to think about. What is next? In this blog I'm going to start having a more focused approach too. I will state what portfolio project I'm working on, what codewars problem I'm currently working on, explaining code snippets line by line and finally marking the time of my coding sessions. I think this will do a better job of keeping me on track and focused.
