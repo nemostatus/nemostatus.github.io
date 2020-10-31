@@ -1,0 +1,39 @@
+---
+layout: post
+title:      "Dev log: Day 6"
+date:       2020-10-31 11:06:27 +0000
+permalink:  dev_log_day_6
+---
+
+
+Type: Logging progress , Semi-technical blog
+Total time coding today: codewar session: 1 hr + portfolio/blog session: 2 hrs = 3hrs
+
+I'm going to attempt 1 code puzzle a day on codewars. I'll log my thought process and attempt to solve these puzzles without looking at pre-existing algorithims.  After this coding session I want to work on my pathfinder portfolio project and attempt to make it look better and keep working on this. My goals for pathfinder so far is to make it look better first and to add a new game component. 
+
+I'm going to attempt the 'drying potato' puzzle on codewars now. I chose this randomly and want to just see if I can complete this puzzle with my current knowledge. Timer starts now. So far I'm attempt to figure out the puzzle aspect and not so much the coding part right now.  30 mins in and I've got nothing. It's a confusing word problem puzzle . Ok so after about an hour I can say I have no idea and that's ok. It forced me to think which was the point. Ironically enough the code wasn't the problem, the problem was finding a solution to a math problem in a way. This kind of problem goes to show that programming isn't always about the code or memorizing syntax, it's about psuedocoding out a problem until it's solved, then converting it into code. **Think first, type second.** I'm going to shelve this potato problem for tomorrows session and give it a second and final attempt, if I can't solve it I'll move on.
+
+Now it's time for the pathfinder project continuation. So tonight I'm just adding the background image for my game component. For this I used **pixabay** which is free for commercial and non-commercial use. Always take a look at the license of websites providing images and what is allowed and not allowed . The trick to having a background picture is to make sure nothing gets lost in the image. I set my prompt and choice divs like this in my index.html file
+
+```
+div.option1{
+    flex:2;
+    width: viewport-length;
+  padding: 10px;
+  height: 100px;
+  border: 5px solid black;
+  margin: 10;
+  
+}
+```
+
+This sets a frame around the div that I don't want to blend in with the background using flexbox.
+
+I've found some good resources to supplement my website.Here's the list 
+
+1. Font Awesome: Font awesome is a site that allows a dev to get icons and use them in their site
+2. Google Fonts: Allows dev to select from different fonts to style words
+3. Pixabay: For background images(read license before use)
+
+
+Due to time constraints I think the most efficient way to keep track of my progress would be to keep a weekly log. 1 blog per week detailing the highlights of the coding sessions and total time coded. I feel like daily blogs sound good in theory but after writing them for a week I can tell it's going to be difficult to provide a consistent quality that provides readers with any value. **Quality over quantity.** I did say this was a way to keep me daily coding but I'm still going to code daily, just not blog daily. Happy coding everyone!
