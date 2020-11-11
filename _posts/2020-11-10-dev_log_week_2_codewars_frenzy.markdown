@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Dev log: Week 2 Codewars frenzy"
-date:       2020-11-11 03:16:37 +0000
+date:       2020-11-10 22:16:38 -0500
 permalink:  dev_log_week_2_codewars_frenzy
 ---
 
@@ -28,7 +28,7 @@ return x.charAt(0).toUpperCase()+ x.substring(1)
   })
 ```
 This returns ["Hello", "There", "Person"]
-Breaking it down x is each element in the original array. CharAt() is a method that returns a character from a specified index(in this case 0 is the first letter of each word. The toUpperCase() method capitalizes this letter. This alone doesn't work  because if it ended there it would just return
+Breaking it down x is each element in the original array. CharAt() is a method that returns a character from a specified index(in this case 0 is the first letter of each word). The toUpperCase() method capitalizes this letter. This alone doesn't work  because if it ended there it would just return
 
 ```
 ["H","T","P"]
