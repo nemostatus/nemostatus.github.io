@@ -9,7 +9,7 @@ permalink:  fun_projects_this_week
 This last week I've been doing something new almost everyday. I learned alot from both mistakes and various tutorials.
 Here is the list of projects that I worked on this past week:
 
-1.  Making a program start upon the startup of my computer(followed a tutorial on  how use a robot voice to greet me when my computer starts, I changed a bit of this. More on this bit as this will be the main focus for the blog today.) (howtogeek.com)
+1.  Making a program start upon the startup of my computer(followed a tutorial on  how use a robot voice to greet me when my computer starts, I changed a bit of this. More on this in a bit as this will be the main focus for the blog today.) (howtogeek.com)
 2.  Create and train a neural network( Traversy Media) I also built my own networks(didn't quite work but that's the learning process)
 3.   Pull different lists from the web, put them into googles sheets, change this data so I can copy and paste into an array. Use this array and the map function to create a  list of json objects (my own thoughts and tutorials)
 4 Some more unity game development( Brackeys tutorial)
