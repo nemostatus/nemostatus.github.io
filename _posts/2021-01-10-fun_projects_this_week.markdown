@@ -13,6 +13,7 @@ Here is the list of projects that I worked on this past week:
 2.  Create and train a neural network( Traversy Media) I also built my own networks(didn't quite work but that's the learning process)
 3.   Pull different lists from the web, put them into googles sheets, change this data so I can copy and paste into an array. Use this array and the map function to create a  list of json objects (my own thoughts and tutorials)
 4 Some more unity game development( Brackeys tutorial)
+5.Practicing unit testing
 
 **INTRO**
 
