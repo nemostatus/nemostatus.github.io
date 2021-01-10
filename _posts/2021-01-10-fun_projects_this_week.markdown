@@ -29,7 +29,7 @@ So the way I came across this we article on having your computer greet you was s
 
 **HOW TO BUILD A MOTIVATIONAL BOT **
 
-I followed the tutorial and they describe the language used in this script is VBScript. I'll first show what they created, then show what I changed. Here is the code from [https://www.howtogeek.com/197719/stupid-geek-tricks-how-to-make-your-computer-talk-to-you/](http://)
+I followed the tutorial and they describe the language used in this script is VBScript. I'll first show what they created, then show what I changed. 
 
 ```
 dim speechobject
