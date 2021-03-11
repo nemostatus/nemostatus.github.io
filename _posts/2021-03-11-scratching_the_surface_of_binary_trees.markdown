@@ -15,6 +15,7 @@ Hello! So this past week i’ve been trying to learn binary trees. Here’s what
 
 Here’s the code on the page which I followed along with in a gthub repo and added comments as I typed it out. Although the rules of a binary tree seem simple, creating it in code is surprisingly heavy. Here’s the code along with some comments I typed out in order to identify what was going on.
 
+```
 class Node{
     constructor(data){
         this.data = data;
@@ -114,6 +115,7 @@ search(node,data){
     return null
 }
 }
+```
 The next week i’m going to attempt to write some tests using jest and create an app.js file so I can also manually test. This week I learned the basic rules and how to convert those rules into code.
 
 
