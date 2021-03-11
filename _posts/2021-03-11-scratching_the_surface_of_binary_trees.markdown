@@ -1,23 +1,20 @@
 ---
 layout: post
-title:      "Scratching the surface of binary trees"
+title:      "Scratch the surface of Binary trees"
 date:       2021-03-11 12:02:21 -0500
 permalink:  scratching_the_surface_of_binary_trees
 ---
 
 
-Hello! So this past week i've been trying to learn binary trees. Here's what I've learned so far.
+Hello! So this past week i’ve been trying to learn binary trees. Here’s what I’ve learned so far.I used geeksfogeeks to start learning binary search trees. 
 
-1. There's a root node of a binary tree
-2. The left node of another node has a lesser value of the parent node
-3. The right node of another node has a greater value of the parent node
+1.There’s a root node of a binary tree
+2.The left node of another node has a lesser value of the parent node
+3.The right node of another node has a greater value of the parent node
 
-Here's the resource I used to scratch the surface of the rules and code of binary search trees . 
-[www.geeksforgeeks.org/binary-search-tree-data-structure/](http://)
 
-Here's the code on the page which I followed along with in a gthub repo and added comments as I typed it out. Although the rules of a binary tree seem simple, creating it in code is surprisingly heavy. Here's the code along with some comments I typed out in order to identify what was going on. 
+Here’s the code on the page which I followed along with in a gthub repo and added comments as I typed it out. Although the rules of a binary tree seem simple, creating it in code is surprisingly heavy. Here’s the code along with some comments I typed out in order to identify what was going on.
 
-```
 class Node{
     constructor(data){
         this.data = data;
@@ -117,5 +114,6 @@ search(node,data){
     return null
 }
 }
-```
-The next week i'm going to attempt to write some tests using jest and create an app.js file so I can also manually test. This week I learned the basic rules and how to convert those rules into code.
+The next week i’m going to attempt to write some tests using jest and create an app.js file so I can also manually test. This week I learned the basic rules and how to convert those rules into code.
+
+
