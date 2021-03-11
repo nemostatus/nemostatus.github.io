@@ -12,7 +12,8 @@ Hello! So this past week i've been trying to learn binary trees. Here's what I'v
 2. The left node of another node has a lesser value of the parent node
 3. The right node of another node has a greater value of the parent node
 
-Here's the resource I used to scratch the surface of the rules and code of binary search trees . [https://www.geeksforgeeks.org/binary-search-tree-data-structure/](http://)
+Here's the resource I used to scratch the surface of the rules and code of binary search trees . 
+[www.geeksforgeeks.org/binary-search-tree-data-structure/](http://)
 
 Here's the code on the page which I followed along with in a gthub repo and added comments as I typed it out. Although the rules of a binary tree seem simple, creating it in code is surprisingly heavy. Here's the code along with some comments I typed out in order to identify what was going on. 
 
