@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Curious about automation"
-date:       2021-04-08 04:03:33 +0000
+date:       2021-04-08 00:03:33 -0400
 permalink:  curious_about_automation
 ---
 
