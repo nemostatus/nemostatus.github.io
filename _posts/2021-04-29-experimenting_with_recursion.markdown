@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "experimenting with recursion"
-date:       2021-04-29 14:27:49 +0000
+date:       2021-04-29 10:27:49 -0400
 permalink:  experimenting_with_recursion
 ---
 
 
-The definition sitepoint.com gives recursion is "Recursion is a technique for iterating over an operation by having a function call itself repeatedly until it arrives at a result". So the last part of this description hints at that in the function which calls itself is going to use some form of conditional statement. As part of my study of different data structures and algorithms I decided to create a repo [https://github.com/nemostatus/recursionPractice](http://) In this repo I created one function called countTo() that is nested in an outer function and uses a closure.The outer function holds a variable named count which is equal to 0. In the countTo function a while loop is used to see if count is less than 100 display the current count in a particular div, then increase the count by 1 then recall itself(recursion). Here's how the function looks altogether.
+The definition sitepoint.com gives recursion is "Recursion is a technique for iterating over an operation by having a function call itself repeatedly until it arrives at a result". So the last part of this description hints at that in the function which calls itself is going to use some form of conditional statement. As part of my study of different data structures and algorithms I decided to create a repo https://github.com/nemostatus/recursionPractice In this repo I created one function called countTo() that is nested in an outer function and uses a closure.The outer function holds a variable named count which is equal to 0. In the countTo function a while loop is used to see if count is less than 100 display the current count in a particular div, then increase the count by 1 then recall itself(recursion). Here's how the function looks altogether.
 
 ```
   
