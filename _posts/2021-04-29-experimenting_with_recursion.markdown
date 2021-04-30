@@ -8,6 +8,8 @@ permalink:  experimenting_with_recursion
 
 The definition sitepoint.com gives recursion is "Recursion is a technique for iterating over an operation by having a function call itself repeatedly until it arrives at a result". So the last part of this description hints at that in the function which calls itself is going to use some form of conditional statement. As part of my study of different data structures and algorithms I decided to create a repo https://github.com/nemostatus/recursionPractice In this repo I created one function called countTo() that is nested in an outer function and uses a closure.The outer function holds a variable named count which is equal to 0. In the countTo function a while loop is used to see if count is less than 100 display the current count in a particular div, then increase the count by 1 then recall itself(recursion). Here's how the function looks altogether.
 
+THIS IS AN EDIT MESSAGE: So I was thinking about my examples today and realized that the recursion here really does nothing because the while loop is already taking care of everything. Removing the recursion call still works, however if I were to change the while to an if statement I believe that it will only iterate once,but adding the recursive function call back in with a combo of the if statement makes it work with recursion. I'm going to keep changing my code. Ya I was right... So just ignore the code below as a matter of fact I''ll just add the more necessary recursion at the bottom of this blog
+
 ```
   
 function outer(){
@@ -19,7 +21,7 @@ function countTo(){
     countTo() //the function is calling itself which checks condition, if it's true then increase count and recal itself until the condition is met
     }
 }
-countTo() //the outer function invokes the inner function so onclick the global exe context is the outer function then inner(lifo executed)
+countTo() ////calling itself uneccessarily because the while loop
 }
 ```
 
@@ -60,8 +62,26 @@ function inner(){
     while(count < num){
     document.getElementById("divDisplay").innerHTML += `<div> Div number ${count+1}.</div>`
     count++
-    inner()
+    inner() //calling itself uneccessarily beccause the while loop
 }
 }
 inner()}
 ```
+
+THE ABOVE CODE WORKS WITHOUT THE RECURSIVE CALL. 
+However when using if statement the recursion is necessary. Like this. 
+
+```
+function outer(){
+    count = 0
+function countTo(){
+    if(count<100){
+    document.getElementById("countDisplay").innerHTML += `${count},`
+    count++
+     countTo() //needed in order to use recursion to continue this code instead of a while loop
+    }
+}
+countTo() }
+```
+
+
